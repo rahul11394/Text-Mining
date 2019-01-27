@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings>
+        <Position x="282" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="accountKey">489E85E19C2CCA096DE282D5D98FBFF331131668EF477D1BAA8A893023CEA641B34FDFBB6AC3A7C05E49274765BED10B239DDF14A8F131C41EDF93AA2B8DD248343DE577C152444A396636F8B627AE397E24A971F420CE1E546320A5D61F31011F878B6CF9FE2184295742DE0D037B94AFC105998484A16083985547EFB6AC945227A73583BC0113657081AF4ECE37B4224BD5DF1DB9B4D55F0C6DFEA75A545A650461A59BFF328F0E82686CDEB9EDF032316F42B0DD5843E069E577613E124F561F980C8B543072FFF5437571CF09D2BCCA9E17F582972B52118E7E4DC945D21D1F1794C7F8A1C7A945CC5D3D0D15F230ED64E09A00A7119E1E918261083FAAA8F11DDE4C78A4BC3C10FFB7140FDD29E743C36A99652</Value>
+          <Value name="TextFieldSelect">Text</Value>
+          <Value name="analysisSelect">s</Value>
+          <Value name="endpoint" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="StandardOutput">
+          <RecordInfo>
+            <Field name="Text" size="1060" source="File: C:\Users\RAHCHAU\Desktop\Rahul\Test.xlsx|||`Test Data$`" type="V_String" />
+            <Field name="Sentiment_Score" source="(Multiple Sources)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CognitiveServicesTextAnalytics.yxmc" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_19356_339f12033311444089272adc9d728012_\Engine_18028_d5e7286acc4447f9a518471a0f60b419_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\RAHCHAU\Desktop\Rahul\Test.xlsx|||`Test Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Test.xlsx
+Table=`Test Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Text" size="1060" source="File: C:\Users\RAHCHAU\Desktop\Rahul\Test.xlsx|||`Test Data$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="StandardOutput" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Azure - Cognitive Services Text Analytics</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

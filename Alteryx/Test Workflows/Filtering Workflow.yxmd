@@ -1,0 +1,688 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="30" y="78" width="216" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data File Input</AnnotationText>
+          <DefaultAnnotationText>IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx
+Table=`IBT Complete with Polk+Historic$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="001 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="001 Model Codes" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="002 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="002 Vehicle Model Configuration" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="014 Air Intake Systems Packages" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="014 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="016 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="016 Exhaust System Packages" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="065 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="065 Exterior Paint Package" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="100 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="100 Engine Hp Rating Sco" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="101 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="101 Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="168 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="168 Radiator Oil Pan Guard" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="171 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="171 Hoses Std Silicon Other Sco" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="23Z Def Tank Cover" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="23Z Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="266 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="266 Radiator" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="314 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="314 Lamp Road Fog" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="342 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="342 Transmission Main" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="452 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="452 Traction Control Drive Axle S" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="502 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="502 Wheel Disc Front" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="556 Bumper Front" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="556 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="664 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="664_Step_Finish__Sco_" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="756 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="756 Seat Driver" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="764 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="764 Sun Visor Exterior" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="998 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="998 Factory Pdi" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="A62 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="A62_Gvwr__Gross_Veh_Weight_Rating_" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="A84 Business Segment" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="A84 Db Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="A84 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="AA2 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Aa2 Trailer Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Aa3 Body Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="AA3 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="AF3 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Af3 Mfr S Body Type Identification" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Brake Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Brand" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Build Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Date" />
+            <Field name="Cab Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Cab Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Db Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Db Cd Value" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Db Cd Value Ecf Un" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Db Desc 160" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Db Module No" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="DTNA Fleet Group" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="DTNA Group" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="DTNA Vocation Segments" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Eng Hp" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Eng Mfr" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Eng Model" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Eng Size" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="FTL Sales District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="FTL Sales Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Ftl District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Ftl Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Fuel Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Fuel Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="GVWR Value" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Gvw Cd" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Gvw Class Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="IBT Question Flag" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Inservice Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Date" />
+            <Field name="Make Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="MFG" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Model" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Model Year" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Max Month" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Model Segment" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="NPS" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Number of Records" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Owner Vocation Code" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Owner Vocation Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Plant" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Preferred Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Preferred City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Preferred Country" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Preferred County" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Preferred Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Preferred State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Preferred Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Registered Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Registered City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Registered Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Registered State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Registered Year Month" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Registered Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Registered Month" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Registered Year" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Soutlet" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Soutlet Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="SRL Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Sale Price" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Str Survey Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Tso Split No" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Target Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Torque" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Unit Count" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Vehicle Category Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Vehicle Id Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Vehicle Type Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Vehicle Type Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Vehmake" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="VIN" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="WST Sales District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="WST Sales Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Wst District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Wst Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Year Mo Titled" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="_Description" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="_Empty" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Dtm Date Interviewed" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="DateTime" />
+            <Field name="Fkey Answer ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Fkey Benchmark ID" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Fkey Channel Type ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Fkey Client Division ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Fkey Client Group ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Fkey Client ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Fkey Location ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Fkey Question ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Fkey Survey ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Fkey Survey Type ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Fkey Work Order ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Int NPS Score" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Int Overall Satisfaction Score" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Int Points" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Int Question Number" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Pkey Report Answer Benchmark ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Pkey Respondant Answer ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="strAddress1" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="strAddress2" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Str Answer Text" size="1013" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_WString" />
+            <Field name="Str Answer" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Benchmark" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_WString" />
+            <Field name="Str Channel Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Client Division" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Client Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Client Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Comment" size="3250" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_WString" />
+            <Field name="Str Contact Nameon Import" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Contact Phoneon Import" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Customer Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Customer Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Email Addresson Import" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="Double" />
+            <Field name="Str Interviewer Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Location" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Loyalty Index" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Note Text" size="2813" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_WString" />
+            <Field name="Str Question Chart Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Question Type Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Question" size="397" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Serial Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Survey Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Update Email Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Updated Contact Phone" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Updated Contact" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Updated Other Info" size="484" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+            <Field name="Str Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\IBT Complete with Polk+Historic+New Q's+Modules Extract - Copy.xlsx|||`IBT Complete with Polk+Historic$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Search" />
+            <Field name="Bucket" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Maintenance</c>
+              <c>Maintenance</c>
+            </r>
+            <r>
+              <c>Engine</c>
+              <c>Engine</c>
+            </r>
+            <r>
+              <c>Mileage</c>
+              <c>Mileage</c>
+            </r>
+            <r>
+              <c>Fuel</c>
+              <c>Fuel</c>
+            </r>
+            <r>
+              <c>Drive</c>
+              <c>Drive</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Manually Input the Search terms and the Buckets that they are supposed to fall under</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_17668_e5706d8a813d4a239ba33d2de6957952_\Engine_3972_e869ab5293d3433388c979875254f5e0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_17668_e5706d8a813d4a239ba33d2de6957952_\Engine_3972_98c2f3911b3048da8a6c993fcddb4242_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="306" y="30" width="625" height="292" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Model Segment Filter</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="451" y="134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Model Segment] = "Heavy Highway"</Expression>
+              <Mode>Custom</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Model Segment</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-09-25 09:10:14</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-09-25 09:10:14</StartDate>
+                  <EndDate>2018-09-25 09:10:14</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Model Segment] = "Heavy Highway"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="595" y="86" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_17668_e5706d8a813d4a239ba33d2de6957952_\Engine_3972_fcf59b2b39b642ca85e22430ea5693a3_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="583" y="170" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Model Segment] = "Heavy Vocational"</Expression>
+              <Mode>Custom</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Model Segment</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-09-25 09:10:14</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-09-25 09:10:14</StartDate>
+                  <EndDate>2018-09-25 09:10:14</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Model Segment] = "Heavy Vocational"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="739" y="158" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_17668_e5706d8a813d4a239ba33d2de6957952_\Engine_3972_c2230bc6089845d3a3a3d6a0baf3e309_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="703" y="206" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Model Segment] = "Medium Duty"</Expression>
+              <Mode>Custom</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Model Segment</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-09-25 09:10:14</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-09-25 09:10:14</StartDate>
+                  <EndDate>2018-09-25 09:10:14</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Model Segment] = "Medium Duty"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="811" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_17668_e5706d8a813d4a239ba33d2de6957952_\Engine_3972_5261a546913b4f26b518c3d31d9eb30c_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="739" y="74" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="847" y="74" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_17668_e5706d8a813d4a239ba33d2de6957952_\Engine_3972_02fb5fdef1714aeeb595b62fdb63221a_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="331" y="122" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Model Segment" selected="True" />
+                <SelectField field="VIN" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="False" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="False" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Filtering Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

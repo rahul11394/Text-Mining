@@ -1,0 +1,656 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="169.9523" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Marketing Analytics</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings>
+            <Position x="187" y="98.00005" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="ConnectWithURL">False</Value>
+              <Value name="Text Box (727)" />
+              <Value name="Connection Method: New Connection">True</Value>
+              <Value name="New Connection: Server URL">http://stnaicvdw001.us164.corpintra.net</Value>
+              <Value name="New connection: use default site">True</Value>
+              <Value name="New Connection: site manual entry">False</Value>
+              <Value name="New Connection: site manual entry site name" />
+              <Value name="Connection Method: Existing Connection">False</Value>
+              <Value name="Existing Connection: selection dropdown">http://stnaicvdw001.us164.corpintra.net|</Value>
+              <Value name="Check Box (723)">True</Value>
+              <Value name="Credentials: username">RAHCHAU</Value>
+              <Value name="Credentials: password">49035BF7B0C64B65480B8F3888DE1AD2145E3DE373F9B1A18042E2229ACD81EFB8EA8A3A4D2236C9E3FFE60C518CB845CB8C6AF20E75743A2A3BD6259D3C66E4DBF34267F325AC6865A852EC80A38B89A2336D55A9383BA0C428AB73E49317C8E5F45CE914D68C49220F125363D346364A26CAE0A0008</Value>
+              <Value name="Run Mode: publish data source">True</Value>
+              <Value name="Publish: data source name">IBT Complete with Polk+Historic+New Q's+Modules Extract</Value>
+              <Value name="Publish: project manual entry">True</Value>
+              <Value name="Publish: project manual entry name">Marketing Analytics</Value>
+              <Value name="Publish: select project">False</Value>
+              <Value name="Publish: select project dropdown">[Null]</Value>
+              <Value name="Check Box (742)">False</Value>
+              <Value name="Drop Down (710)">OVERWRITE</Value>
+              <Value name="DataSourceFileType">tde</Value>
+              <Value name="Radio Button (657)">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="PublishToTableauServer_v1.09.2\Publish to Tableau Server.yxmc" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="98" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IBT Raw Data - Till December 2018 - For Alteryx.xlsx
+Table=`IBT Raw Data - Till Dec 2018$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="001 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="001 Model Codes" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="002 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="002 Vehicle Model Configuration" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="014 Air Intake Systems Packages" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="014 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="016 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="016 Exhaust System Packages" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="065 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="065 Exterior Paint Package" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="100 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="100 Engine Hp Rating Sco" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="101 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="101 Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="168 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="168 Radiator Oil Pan Guard" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="171 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="171 Hoses Std Silicon Other Sco" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="23Z Def Tank Cover" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="23Z Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="266 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="266 Radiator" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="314 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="314 Lamp Road Fog" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="342 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="342 Transmission Main" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="452 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="452 Traction Control Drive Axle S" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="502 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="502 Wheel Disc Front" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="556 Bumper Front" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="556 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="664 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="664_Step_Finish__Sco_" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="756 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="756 Seat Driver" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="764 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="764 Sun Visor Exterior" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="998 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="998 Factory Pdi" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A62 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A62_Gvwr__Gross_Veh_Weight_Rating_" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A84 Business Segment" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A84 Db Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A84 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="AA2 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Aa2 Trailer Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Aa3 Body Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="AA3 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="AF3 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Af3 Mfr S Body Type Identification" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Brake Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Brand" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Build Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Date" />
+                <Field name="Cab Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Cab Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Captive Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Db Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Db Cd Value" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Db Cd Value Ecf Un" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Db Desc 160" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Db Module No" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="DTNA Fleet Group" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="DTNA Group" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="DTNA Vocation Segments" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Eng Hp" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Eng Mfr" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Eng Model" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Eng Size" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Eng Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Econic" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="FTL Sales District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="FTL Sales Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="FTL Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="FTL Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Ftl District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Ftl Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Fuel Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Fuel Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="GVWR Value" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Gvw Cd" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Gvw Class Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Head Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="IBT Question Flag" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Inservice Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Date" />
+                <Field name="Make Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="MFG" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Model" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Model Year" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Model Segment" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="NPS" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Number of Records" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Owner Vocation Code" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Owner Vocation Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Plant" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred Country" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred County" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Rear Axle" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered Year Month" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Registered Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Date" />
+                <Field name="Registered Month" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Registered Year" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Right CAPTIVE ENGINE" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right ENG TYPE" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right Econic" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right FTL Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right FTL Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right HEAD NAME" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right REAR AXLE" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right Registered Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Date" />
+                <Field name="Right SIC CODE" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Right SIC DESC" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right WST Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right WST Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Sic Code" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Sic Desc" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Soutlet" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Soutlet Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="SRL Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Survey Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Tso Split No" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Target Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Torque" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Unit Count" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Vehicle Category Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Vehicle Id Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Vehicle Type Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Vehicle Type Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Vehmake" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="VIN" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="WST Sales District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="WST Sales Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="WST Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="WST Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Wst District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Wst Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="_Description" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="_Empty" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Dtm Date Interviewed" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="DateTime" />
+                <Field name="Fkey Answer ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Benchmark ID" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Fkey Channel Type ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Client Division ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Client Group ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Client ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Location ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Question ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Survey ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Survey Type ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Work Order ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Int NPS Score" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Int Overall Satisfaction Score" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Int Points" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Int Question Number" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Pkey Report Answer Benchmark ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Pkey Respondant Answer ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="strAddress1" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="strAddress2" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Str Answer Text" size="1226" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_WString" />
+                <Field name="Str Answer" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Benchmark" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_WString" />
+                <Field name="Str Channel Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Client Division" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Client Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Client Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Comment" size="3332" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_WString" />
+                <Field name="Str Contact Nameon Import" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Contact Phoneon Import" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Customer Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Customer Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Email Addresson Import" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Str Interviewer Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Location" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Loyalty Index" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Note Text" size="3035" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_WString" />
+                <Field name="Str Question Chart Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Question Type Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Question" size="389" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Serial Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Survey Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Update Email Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Updated Contact Phone" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Updated Contact" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Updated Other Info" size="484" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="295" y="98.00005" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_9176_b9c5e91dc3044d3db6779c8644e9a175_\Engine_9148_995e8655b0ae41319dd494e960a01060_.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="930" y="54.00002" width="206.3307" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>zzzQA Marketing Analytics</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings>
+            <Position x="1063" y="98.00002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="ConnectWithURL">False</Value>
+              <Value name="Text Box (727)" />
+              <Value name="Connection Method: New Connection">True</Value>
+              <Value name="New Connection: Server URL">http://stnaicvdw001.us164.corpintra.net</Value>
+              <Value name="New connection: use default site">True</Value>
+              <Value name="New Connection: site manual entry">False</Value>
+              <Value name="New Connection: site manual entry site name" />
+              <Value name="Connection Method: Existing Connection">False</Value>
+              <Value name="Existing Connection: selection dropdown">http://stnaicvdw001.us164.corpintra.net|</Value>
+              <Value name="Check Box (723)">True</Value>
+              <Value name="Credentials: username">RAHCHAU</Value>
+              <Value name="Credentials: password">49035BF7B0C64B65480B8F3888DE1AD2145E3DE373F9B1A18042E2229ACD81EFB8EA8A3A4D2236C9E3FFE60C518CB845CB8C6AF20E75743A2A3BD6259D3C66E4DBF34267F325AC6865A852EC80A38B89A2336D55A9383BA0C428AB73E49317C8E5F45CE914D68C49220F125363D346364A26CAE0A0008</Value>
+              <Value name="Run Mode: publish data source">True</Value>
+              <Value name="Publish: data source name">IBT Complete with Polk+Historic+New Q's+Modules Extract</Value>
+              <Value name="Publish: project manual entry">True</Value>
+              <Value name="Publish: project manual entry name">zzzQA Marketing Analytics</Value>
+              <Value name="Publish: select project">False</Value>
+              <Value name="Publish: select project dropdown">[Null]</Value>
+              <Value name="Check Box (742)">False</Value>
+              <Value name="Drop Down (710)">OVERWRITE</Value>
+              <Value name="DataSourceFileType">tde</Value>
+              <Value name="Radio Button (657)">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="PublishToTableauServer_v1.09.2\Publish to Tableau Server.yxmc" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="955" y="98" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IBT Raw Data - Till December 2018 - For Alteryx.xlsx
+Table=`IBT Raw Data - Till Dec 2018$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="001 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="001 Model Codes" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="002 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="002 Vehicle Model Configuration" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="014 Air Intake Systems Packages" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="014 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="016 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="016 Exhaust System Packages" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="065 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="065 Exterior Paint Package" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="100 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="100 Engine Hp Rating Sco" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="101 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="101 Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="168 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="168 Radiator Oil Pan Guard" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="171 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="171 Hoses Std Silicon Other Sco" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="23Z Def Tank Cover" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="23Z Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="266 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="266 Radiator" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="314 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="314 Lamp Road Fog" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="342 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="342 Transmission Main" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="452 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="452 Traction Control Drive Axle S" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="502 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="502 Wheel Disc Front" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="556 Bumper Front" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="556 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="664 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="664_Step_Finish__Sco_" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="756 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="756 Seat Driver" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="764 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="764 Sun Visor Exterior" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="998 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="998 Factory Pdi" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A62 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A62_Gvwr__Gross_Veh_Weight_Rating_" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A84 Business Segment" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A84 Db Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="A84 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="AA2 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Aa2 Trailer Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Aa3 Body Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="AA3 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="AF3 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Af3 Mfr S Body Type Identification" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Brake Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Brand" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Build Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Date" />
+                <Field name="Cab Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Cab Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Captive Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Db Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Db Cd Value" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Db Cd Value Ecf Un" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Db Desc 160" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Db Module No" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="DTNA Fleet Group" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="DTNA Group" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="DTNA Vocation Segments" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Eng Hp" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Eng Mfr" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Eng Model" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Eng Size" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Eng Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Econic" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="FTL Sales District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="FTL Sales Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="FTL Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="FTL Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Ftl District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Ftl Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Fuel Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Fuel Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="GVWR Value" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Gvw Cd" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Gvw Class Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Head Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="IBT Question Flag" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Inservice Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Date" />
+                <Field name="Make Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="MFG" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Model" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Model Year" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Model Segment" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="NPS" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Number of Records" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Owner Vocation Code" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Owner Vocation Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Plant" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred Country" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred County" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Preferred Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Rear Axle" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered Year Month" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Registered Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Registered Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Date" />
+                <Field name="Registered Month" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Registered Year" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Right CAPTIVE ENGINE" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right ENG TYPE" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right Econic" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right FTL Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right FTL Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right HEAD NAME" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right REAR AXLE" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right Registered Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Date" />
+                <Field name="Right SIC CODE" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Right SIC DESC" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right WST Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Right WST Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Sic Code" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Sic Desc" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Soutlet" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Soutlet Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="SRL Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Survey Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Tso Split No" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Target Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Torque" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Unit Count" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Vehicle Category Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Vehicle Id Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Vehicle Type Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Vehicle Type Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Vehmake" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="VIN" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="WST Sales District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="WST Sales Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="WST Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="WST Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Wst District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Wst Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="_Description" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="_Empty" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Dtm Date Interviewed" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="DateTime" />
+                <Field name="Fkey Answer ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Benchmark ID" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Fkey Channel Type ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Client Division ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Client Group ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Client ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Location ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Question ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Survey ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Survey Type ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Fkey Work Order ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Int NPS Score" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Int Overall Satisfaction Score" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Int Points" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Int Question Number" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Pkey Report Answer Benchmark ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Pkey Respondant Answer ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="strAddress1" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="strAddress2" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Str Answer Text" size="1226" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_WString" />
+                <Field name="Str Answer" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Benchmark" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_WString" />
+                <Field name="Str Channel Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Client Division" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Client Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Client Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Comment" size="3332" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_WString" />
+                <Field name="Str Contact Nameon Import" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Contact Phoneon Import" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Customer Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Customer Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Email Addresson Import" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="Double" />
+                <Field name="Str Interviewer Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Location" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Loyalty Index" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Note Text" size="3035" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_WString" />
+                <Field name="Str Question Chart Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Question Type Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Question" size="389" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Serial Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Survey Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Update Email Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Updated Contact Phone" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Updated Contact" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Updated Other Info" size="484" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+                <Field name="Str Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-27-2018\Final Data after Workflows\IBT Raw Data - Till December 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till Dec 2018$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1171" y="98.00002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Summary" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="1" Connection="Macro Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Summary" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Macro Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Publish to Tableau Server</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

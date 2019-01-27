@@ -1,0 +1,3364 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="222" width="216" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data File Input</AnnotationText>
+          <DefaultAnnotationText>IBT Raw Data - Till November 2018 - For Alteryx.xlsx
+Table=`IBT Raw Data - Till November 20$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="001 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="001 Model Codes" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="002 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="002 Vehicle Model Configuration" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="014 Air Intake Systems Packages" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="014 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="016 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="016 Exhaust System Packages" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="065 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="065 Exterior Paint Package" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="100 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="100 Engine Hp Rating Sco" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="101 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="101 Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="168 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="168 Radiator Oil Pan Guard" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="171 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="171 Hoses Std Silicon Other Sco" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="23Z Def Tank Cover" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="23Z Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="266 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="266 Radiator" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="314 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="314 Lamp Road Fog" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="342 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="342 Transmission Main" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="452 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="452 Traction Control Drive Axle S" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="502 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="502 Wheel Disc Front" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="556 Bumper Front" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="556 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="664 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="664_Step_Finish__Sco_" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="756 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="756 Seat Driver" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="764 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="764 Sun Visor Exterior" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="998 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="998 Factory Pdi" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="A62 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="A62_Gvwr__Gross_Veh_Weight_Rating_" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="A84 Business Segment" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="A84 Db Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="A84 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="AA2 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Aa2 Trailer Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Aa3 Body Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="AA3 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="AF3 Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Af3 Mfr S Body Type Identification" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Brake Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Brand" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Build Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Date" />
+            <Field name="Cab Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Cab Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Captive Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Db Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Db Cd Value" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Db Cd Value Ecf Un" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Db Desc 160" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Db Module No" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="DTNA Fleet Group" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="DTNA Group" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="DTNA Vocation Segments" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Engine" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Eng Hp" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Eng Mfr" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Eng Model" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Eng Size" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Eng Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Econic" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="FTL Sales District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="FTL Sales Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="FTL Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="FTL Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Ftl District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Ftl Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Fuel Cd" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Fuel Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="GVWR Value" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Gvw Cd" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Gvw Class Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Head Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="IBT Question Flag" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Inservice Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Date" />
+            <Field name="Make Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="MFG" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Model" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Model Year" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Model Segment" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="NPS" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Number of Records" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Owner Vocation Code" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Owner Vocation Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Plant" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Preferred Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Preferred City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Preferred Country" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Preferred County" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Preferred Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Preferred State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Preferred Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Rear Axle" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Registered Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Registered City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Registered Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Registered State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Registered Year Month" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Registered Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Registered Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Date" />
+            <Field name="Registered Month" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Registered Year" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Right CAPTIVE ENGINE" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Right ENG TYPE" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Right Econic" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Right FTL Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Right FTL Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Right HEAD NAME" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Right REAR AXLE" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Right Registered Date" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Date" />
+            <Field name="Right SIC CODE" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Right SIC DESC" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Right WST Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Right WST Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Sic Code" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Sic Desc" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Soutlet" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Soutlet Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="SRL Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Survey Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Tso Split No" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Target Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Torque" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Unit Count" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Vehicle Category Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Vehicle Id Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Vehicle Type Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Vehicle Type Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Vehmake" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="VIN" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="WST Sales District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="WST Sales Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="WST Service Manager" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="WST Service Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Wst District" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Wst Region" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="_Description" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="_Empty" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Dtm Date Interviewed" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="DateTime" />
+            <Field name="Fkey Answer ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Fkey Benchmark ID" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Fkey Channel Type ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Fkey Client Division ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Fkey Client Group ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Fkey Client ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Fkey Location ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Fkey Question ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Fkey Survey ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Fkey Survey Type ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Fkey Work Order ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Int NPS Score" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Int Overall Satisfaction Score" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Int Points" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Int Question Number" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Pkey Report Answer Benchmark ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Pkey Respondant Answer ID" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="strAddress1" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="strAddress2" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Str Answer Text" size="1226" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_WString" />
+            <Field name="Str Answer" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Benchmark" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_WString" />
+            <Field name="Str Channel Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str City" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Client Division" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Client Group Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Client Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Comment" size="3332" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_WString" />
+            <Field name="Str Contact Nameon Import" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Contact Phoneon Import" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Customer Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Customer Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Email Addresson Import" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="Double" />
+            <Field name="Str Interviewer Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Location" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Loyalty Index" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Note Text" size="3035" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_WString" />
+            <Field name="Str Question Chart Type" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Question Type Description" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Question" size="397" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Question Standardized" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Serial Number" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str State" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Survey Name" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Update Email Address" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Updated Contact Phone" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Updated Contact" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Updated Other Info" size="484" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+            <Field name="Str Zip" size="255" source="File: C:\Users\RAHCHAU\Desktop\Rahul\IBT\Data\12-03-2018\Final Data after Workflows\IBT Raw Data - Till November 2018 - For Alteryx.xlsx|||`IBT Raw Data - Till November 20$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="115" />
+          <Fields>
+            <Field name="Bucket" />
+            <Field name="Search" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Weight and Size</c>
+              <c>Weight</c>
+            </r>
+            <r>
+              <c>Weight and Size</c>
+              <c>Length</c>
+            </r>
+            <r>
+              <c>Weight and Size</c>
+              <c>Height</c>
+            </r>
+            <r>
+              <c>Weight and Size</c>
+              <c>Size</c>
+            </r>
+            <r>
+              <c>Warranty</c>
+              <c>Warranty</c>
+            </r>
+            <r>
+              <c>Visibility</c>
+              <c>Visibility</c>
+            </r>
+            <r>
+              <c>Vibration</c>
+              <c>Vibration</c>
+            </r>
+            <r>
+              <c>Alternator</c>
+              <c>Alternator</c>
+            </r>
+            <r>
+              <c>Starter</c>
+              <c>Starter</c>
+            </r>
+            <r>
+              <c>Battery</c>
+              <c>Battery</c>
+            </r>
+            <r>
+              <c>Battery</c>
+              <c>Batteries</c>
+            </r>
+            <r>
+              <c>Specs</c>
+              <c>Specification</c>
+            </r>
+            <r>
+              <c>Specs</c>
+              <c>Specifications</c>
+            </r>
+            <r>
+              <c>Specs</c>
+              <c>Spec</c>
+            </r>
+            <r>
+              <c>Specs</c>
+              <c>Specs</c>
+            </r>
+            <r>
+              <c>Serviceability</c>
+              <c>Serviceability</c>
+            </r>
+            <r>
+              <c>Safety</c>
+              <c>Safety</c>
+            </r>
+            <r>
+              <c>Ride</c>
+              <c>Handling</c>
+            </r>
+            <r>
+              <c>Ride</c>
+              <c>Comfort</c>
+            </r>
+            <r>
+              <c>Ride</c>
+              <c>Handling</c>
+            </r>
+            <r>
+              <c>Ride</c>
+              <c>Ergonomics</c>
+            </r>
+            <r>
+              <c>Ride</c>
+              <c>Ride</c>
+            </r>
+            <r>
+              <c>Brand</c>
+              <c>Brand</c>
+            </r>
+            <r>
+              <c>Brand</c>
+              <c>Reputation</c>
+            </r>
+            <r>
+              <c>Reliability</c>
+              <c>Reliability</c>
+            </r>
+            <r>
+              <c>Quality</c>
+              <c>Quality</c>
+            </r>
+            <r>
+              <c>Purchase and Delivery</c>
+              <c>Purchase</c>
+            </r>
+            <r>
+              <c>Purchase and Delivery</c>
+              <c>Delivery</c>
+            </r>
+            <r>
+              <c>Price</c>
+              <c>Value</c>
+            </r>
+            <r>
+              <c>Price</c>
+              <c>Price</c>
+            </r>
+            <r>
+              <c>Powertrain</c>
+              <c>Powertrain</c>
+            </r>
+            <r>
+              <c>Performance</c>
+              <c>Performance</c>
+            </r>
+            <r>
+              <c>Maneuverability</c>
+              <c>Maneuverability</c>
+            </r>
+            <r>
+              <c>Maintenance</c>
+              <c>Maintenance</c>
+            </r>
+            <r>
+              <c>Interior</c>
+              <c>Dashboard</c>
+            </r>
+            <r>
+              <c>Interior</c>
+              <c>Dash</c>
+            </r>
+            <r>
+              <c>Interior</c>
+              <c>Interiors</c>
+            </r>
+            <r>
+              <c>Interior</c>
+              <c>Interior</c>
+            </r>
+            <r>
+              <c>Ground Clearance</c>
+              <c>Clearance</c>
+            </r>
+            <r>
+              <c>Interior Tech</c>
+              <c>GPS</c>
+            </r>
+            <r>
+              <c>Interior Tech</c>
+              <c>Stereo</c>
+            </r>
+            <r>
+              <c>Interior Tech</c>
+              <c>Radio</c>
+            </r>
+            <r>
+              <c>Mileage</c>
+              <c>Economy</c>
+            </r>
+            <r>
+              <c>Mileage</c>
+              <c>Mileage</c>
+            </r>
+            <r>
+              <c>Exterior</c>
+              <c>Exteriors</c>
+            </r>
+            <r>
+              <c>Exterior</c>
+              <c>Exterior</c>
+            </r>
+            <r>
+              <c>Ergonomics</c>
+              <c>Ergonomics</c>
+            </r>
+            <r>
+              <c>Engine</c>
+              <c>Power</c>
+            </r>
+            <r>
+              <c>Engine</c>
+              <c>Engine</c>
+            </r>
+            <r>
+              <c>Quality</c>
+              <c>Quality</c>
+            </r>
+            <r>
+              <c>Quality</c>
+              <c>Durability</c>
+            </r>
+            <r>
+              <c>Powertrain</c>
+              <c>Powertrain</c>
+            </r>
+            <r>
+              <c>Powertrain</c>
+              <c>Drivetrain</c>
+            </r>
+            <r>
+              <c>Dealer</c>
+              <c>Dealership</c>
+            </r>
+            <r>
+              <c>Dealer</c>
+              <c>Dealer</c>
+            </r>
+            <r>
+              <c>Airconditioner</c>
+              <c>AC</c>
+            </r>
+            <r>
+              <c>Airconditioner</c>
+              <c>Airconditioner</c>
+            </r>
+            <r>
+              <c>Airconditioner</c>
+              <c>Conditioning</c>
+            </r>
+            <r>
+              <c>Airconditioner</c>
+              <c>conditioner</c>
+            </r>
+            <r>
+              <c>Airconditioner</c>
+              <c>A/C</c>
+            </r>
+            <r>
+              <c>Airconditioner</c>
+              <c>Airconditioning</c>
+            </r>
+            <r>
+              <c>Noise</c>
+              <c>Noise</c>
+            </r>
+            <r>
+              <c>Brand</c>
+              <c>Brand</c>
+            </r>
+            <r>
+              <c>Radiator</c>
+              <c>Radiator</c>
+            </r>
+            <r>
+              <c>Braking</c>
+              <c>Brake</c>
+            </r>
+            <r>
+              <c>Braking</c>
+              <c>Brakes</c>
+            </r>
+            <r>
+              <c>Braking</c>
+              <c>Braking</c>
+            </r>
+            <r>
+              <c>Availability</c>
+              <c>Availability</c>
+            </r>
+            <r>
+              <c>Exterior</c>
+              <c>Appearance</c>
+            </r>
+            <r>
+              <c>Resale</c>
+              <c>Resale</c>
+            </r>
+            <r>
+              <c>Tire</c>
+              <c>Tire</c>
+            </r>
+            <r>
+              <c>Tire</c>
+              <c>Wheels</c>
+            </r>
+            <r>
+              <c>Tire</c>
+              <c>Wheel</c>
+            </r>
+            <r>
+              <c>Tire</c>
+              <c>Tires</c>
+            </r>
+            <r>
+              <c>Cab</c>
+              <c>Cab</c>
+            </r>
+            <r>
+              <c>Money</c>
+              <c>Money</c>
+            </r>
+            <r>
+              <c>Bed</c>
+              <c>Bed</c>
+            </r>
+            <r>
+              <c>Mileage</c>
+              <c>Fuel</c>
+            </r>
+            <r>
+              <c>Mileage</c>
+              <c>Gallon</c>
+            </r>
+            <r>
+              <c>Mileage</c>
+              <c>mpg</c>
+            </r>
+            <r>
+              <c>Exterior</c>
+              <c>Windshield</c>
+            </r>
+            <r>
+              <c>Engine</c>
+              <c>Underpowered</c>
+            </r>
+            <r>
+              <c>RPM</c>
+              <c>RPM</c>
+            </r>
+            <r>
+              <c>Sensors</c>
+              <c>Sensor</c>
+            </r>
+            <r>
+              <c>Sensors</c>
+              <c>Sensors</c>
+            </r>
+            <r>
+              <c>Exhaust</c>
+              <c>Exhaust</c>
+            </r>
+            <r>
+              <c>Emission</c>
+              <c>Emissions</c>
+            </r>
+            <r>
+              <c>Emission</c>
+              <c>Emission</c>
+            </r>
+            <r>
+              <c>Electrical System</c>
+              <c>Wiring</c>
+            </r>
+            <r>
+              <c>Electrical System</c>
+              <c>Wire</c>
+            </r>
+            <r>
+              <c>Electrical System</c>
+              <c>Electrical</c>
+            </r>
+            <r>
+              <c>Electrical System</c>
+              <c>Electric</c>
+            </r>
+            <r>
+              <c>Electrical System</c>
+              <c>Wires</c>
+            </r>
+            <r>
+              <c>Steering</c>
+              <c>Steering</c>
+            </r>
+            <r>
+              <c>DEF System</c>
+              <c>DEF</c>
+            </r>
+            <r>
+              <c>Knocking</c>
+              <c>Knocking</c>
+            </r>
+            <r>
+              <c>Heating</c>
+              <c>Heating</c>
+            </r>
+            <r>
+              <c>Gauge</c>
+              <c>Gauges</c>
+            </r>
+            <r>
+              <c>Gauge</c>
+              <c>Gauge</c>
+            </r>
+            <r>
+              <c>Design</c>
+              <c>Design</c>
+            </r>
+            <r>
+              <c>Lights</c>
+              <c>Light</c>
+            </r>
+            <r>
+              <c>Lights</c>
+              <c>Headlight</c>
+            </r>
+            <r>
+              <c>Lights</c>
+              <c>Headlights</c>
+            </r>
+            <r>
+              <c>Lights</c>
+              <c>Lightings</c>
+            </r>
+            <r>
+              <c>Lights</c>
+              <c>Lighting</c>
+            </r>
+            <r>
+              <c>Lights</c>
+              <c>Lights</c>
+            </r>
+            <r>
+              <c>Wipers</c>
+              <c>Wipers</c>
+            </r>
+            <r>
+              <c>Wipers</c>
+              <c>Wiper</c>
+            </r>
+            <r>
+              <c>Leak</c>
+              <c>Leak</c>
+            </r>
+            <r>
+              <c>Leak</c>
+              <c>Leaks</c>
+            </r>
+            <r>
+              <c>Suspension</c>
+              <c>Suspension</c>
+            </r>
+            <r>
+              <c>Chassis</c>
+              <c>Chassis</c>
+            </r>
+            <r>
+              <c>Seats</c>
+              <c>Seat</c>
+            </r>
+            <r>
+              <c>Seats</c>
+              <c>Seats</c>
+            </r>
+            <r>
+              <c>Storage</c>
+              <c>Storage</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Manually Input the Search terms and the Buckets that they are supposed to fall under</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="378" y="54" width="612" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[This work flow takes in the input of text field, and outputs the Buckets and the count of words which fall into the Buckets.
+
+The Buckets are defined by the user and are created manually in the input. Words which should fall under these buckets are also defined in the same sheet. ]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="165">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="3126" y="293.9999" width="864" height="382.0001" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Appending Buckets</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="159">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="3463" y="421.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="160">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="3558" y="422" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Pkey Report Answer Benchmark ID" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Pkey Report Answer Benchmark ID - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="161">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="3630" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_fdb045592e9e40ee8b2baa5a98ce0173_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="150">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="3238" y="349.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Pkey Report Answer Benchmark ID" />
+                <Field field="Bucket" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Unique: Pkey Report Answer Benchmark ID, Bucket</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="155">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="3163" y="349.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Pkey Report Answer Benchmark ID" selected="True" />
+                <SelectField field="Bucket" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="157">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="3330" y="337.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([Bucket])</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Bucket</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-10-30 08:34:37</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-10-30 08:34:37</StartDate>
+                  <EndDate>2018-10-30 08:34:37</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Bucket])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="153">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="3235" y="530.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Pkey Report Answer Benchmark ID" />
+                <Field field="Bucket" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Unique: Pkey Report Answer Benchmark ID, Bucket</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="156">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="3151" y="530" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Pkey Report Answer Benchmark ID" selected="True" />
+                <SelectField field="Bucket" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="158">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="3327" y="517.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([Bucket])</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Bucket</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-10-30 08:34:37</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-10-30 08:34:37</StartDate>
+                  <EndDate>2018-10-30 08:34:37</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Bucket])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="167">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="3827" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="25" MaxRecords="">C:\Users\RAHCHAU\Desktop\Rahul\IBT\Sentiment Analysis\November 2018\Heavy Highway Analysis - Nov 2018.xlsx|||Bucket Labelling</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Output Excel File</AnnotationText>
+              <DefaultAnnotationText>Heavy Highway Analysis - Nov 2018.xlsx
+Table=Bucket Labelling</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="175">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="3678" y="422" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Bucket" action="Concat" rename="Concat_Bucket">
+                  <Concat_Start />
+                  <Separator>,</Separator>
+                  <Concat_End />
+                </SummarizeField>
+                <SummarizeField field="Pkey Report Answer Benchmark ID" action="GroupBy" rename="Pkey Report Answer Benchmark ID" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Group by 'Pkey' and concatenate the "Buckets"</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="176">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="3798" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_7b749497bd2b4fb181f05252694f2548_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="177">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="3822" y="422" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>Contains([Concat_Bucket],"Warranty")
+OR
+Contains([Concat_Bucket],"warranty")</Expression>
+              <Mode>Custom</Mode>
+              <Simple>
+                <Operator>Contains</Operator>
+                <Field>Concat_Bucket</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-11-26 15:40:59</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>Warranty</Operand>
+                  <StartDate>2018-11-26 15:40:59</StartDate>
+                  <EndDate>2018-11-26 15:40:59</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filtering for Criteria</AnnotationText>
+              <DefaultAnnotationText>Contains([Concat_Bucket],"Warranty")
+OR
+Contains([Concat_Bucket],"warranty")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="178">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="3906" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_f21a5c5bd414400db8be313be923a915_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="3150" y="762" width="248.4777" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Final Output without Concatenation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="136">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="3175" y="814" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="138">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="3258" y="818" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Bucket" action="GroupBy" rename="Bucket" />
+                <SummarizeField field="Count" action="Sum" rename="Sum_Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="139">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="3534" y="806" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_15552_33347a6caea84e40b0b6525fc0ba41b3_\Engine_3896_04a8221f3dd44163a36d897aaa1e8c65_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="146">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="3330" y="818" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Sum_Count" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Sum_Count - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="145">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="3534" y="878" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="25" MaxRecords="">C:\Users\RAHCHAU\Desktop\Rahul\IBT\Sentiment Analysis\Analysis 1 - Heavy Vocational - Without Concat - October 2018.xlsx|||Heavy Vocational</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Analysis 1 - Heavy Vocational - Without Concat - October 2018.xlsx
+Table=Heavy Vocational</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="147">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="3414" y="818" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([Bucket])</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Bucket</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-10-30 08:34:37</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-10-30 08:34:37</StartDate>
+                  <EndDate>2018-10-30 08:34:37</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Bucket])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="116">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="354" y="150" width="146.6042" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Like Questions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="115">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="379" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase the lease the 108SD? (Ask open ended and mark codes accordingly)" 
+OR
+[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase or lease the NEW CASCADIA? (Ask open ended and mark codes accordingly)."
+OR
+[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase or lease the M2 112? (Ask open ended and mark codes accordingly)"
+OR
+[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase or lease the M2 106? (Ask open ended and mark codes accordingly)"
+OR
+[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase or lease the CASCADIA? (Ask open ended and mark codes accordingly)."
+OR
+[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase or lease the 5700? (Ask open ended and mark codes accordingly)"
+OR
+[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase or lease the 4900? (Ask open ended and mark codes accordingly)."
+OR
+[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase or lease the 4700? (Ask open ended and mark codes accordingly) (Up to 10 answers permitted)"
+OR
+[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase or lease the 122 SD? (Ask open ended and mark codes accordingly)"
+OR
+[Str Question Standardized] = "What were the primary reasons you or your company decided to purchase or lease the 114 SD? (Ask open ended and mark codes accordingly)"
+OR
+[Str Question Standardized] = "What are the top three things you like most about your NEW CASCADIA? Please be as specific as possible. (Ask open ended and mark below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like most about your M2 112? Please be as specific as possible. (Ask open ended and mark below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like most about your CASCADIA? Please be as specific as possible. (Ask open ended and mark below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like most about your 5700? Please be as specific as possible. (Ask open ended and mark below)."
+OR
+[Str Question Standardized] = "What are the top three things you like most about your 4900? Please be as specific as possible. (Ask open ended and mark below)."
+OR
+[Str Question Standardized] = "What are the top three things you like most about your 4700? Please be as specific as possible. (Ask open ended and mark below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like most about your 122 SD? Please be as specific as possible. (Ask open ended and mark below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like most about your 114 SD? Please be as specific as possible. (Ask open ended and mark below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like most about your 108SD? Please be as specific as possible. (Ask open ended and mark below)."
+OR
+[Str Question Standardized] = "What are the top three things you like most about your [MAKE]? Please be as specific as possible (Ask open ended and mark below)."</Expression>
+              <Mode>Custom</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Model Segment</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-09-25 09:10:14</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-09-25 09:10:14</StartDate>
+                  <EndDate>2018-09-25 09:10:14</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Str Question Standardized] = "What were the primary reasons you or your company...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="3150" y="234" width="232.7296" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Final Output with Concatenation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="3259" y="298" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Concat_Bucket" action="GroupBy" rename="Concat_Bucket" />
+                <SummarizeField field="Count" action="Sum" rename="Sum_Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Summation of Answer Text and Note Text</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="3355" y="298" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Sum_Count" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Sum_Count - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="113">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="3474" y="278" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_8296_29ea83caea214e849b41a7c560fdd152_\Engine_12244_ec9f1b21514c4f5e866a7cccc0515e16_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="107">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="3175" y="298" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="129">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="3474" y="338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="25" MaxRecords="">C:\Users\RAHCHAU\Desktop\Rahul\IBT\Sentiment Analysis\Analysis 1 - Medium Duty.xlsx|||Medium Duty</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Analysis 1 - Medium Duty.xlsx
+Table=Medium Duty</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1782" y="630" width="919.2751" height="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Note Text</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1807" y="761.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Pkey Report Answer Benchmark ID" selected="True" />
+                <SelectField field="Str Note Text" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Remove unwanted fields</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="2131" y="762.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Str Note Text</Field>
+              <NumFields value="1" />
+              <Delimeters value=" " />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Split into rows with one word per row</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="2263" y="858.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Str Note Text</FieldFind>
+              <FieldSearch>Search</FieldSearch>
+              <ReplaceFoundField>Bucket</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="Bucket" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Append the bucket to the search word using the find replace tool.</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="2370" y="854" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Pkey Report Answer Benchmark ID" />
+                <Field field="Bucket" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Unique pair of 'Pkey' and 'Bucket'</AnnotationText>
+              <DefaultAnnotationText>Unique: Pkey Report Answer Benchmark ID, Bucket</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2275" y="762.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_d408cdadc6824cb6826a0ae52d928921_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="95">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2371" y="786.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_c9bf978c3f0f4ee68f3c6628baceb440_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="102">
+          <GuiSettings>
+            <Position x="1962" y="762" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="List Box (11)">"Str Note Text"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">True</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Removing Punctuation</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings>
+            <Position x="1903" y="869.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="List Box (11)">"Search","Bucket"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">True</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Removing Punctuation</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1999" y="906.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_49e35de295294acca80e1b04bc48212e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="100">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1891" y="737.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_1eb81131d48f4fc287d392daf101ec07_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2106" y="729.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_7e019db92fef447bba5ada5a5b0b3154_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="142">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="2490" y="674" width="170.527" height="19" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>With Concatenation</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="87">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="2515" y="778" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Bucket" action="Concat" rename="Concat_Bucket">
+                      <Concat_Start />
+                      <Separator>,</Separator>
+                      <Concat_End />
+                    </SummarizeField>
+                    <SummarizeField field="Pkey Report Answer Benchmark ID" action="GroupBy" rename="Pkey Report Answer Benchmark ID" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Group by 'Pkey' and concatenate the "Buckets"</AnnotationText>
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="92">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="2899" y="778" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>!IsEmpty([Concat_Bucket])</Expression>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>IsNotEmpty</Operator>
+                    <Field>Concat_Bucket</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>False</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2018-09-13 14:08:42</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>
+                      </Operand>
+                      <StartDate>2018-09-13 14:08:42</StartDate>
+                      <EndDate>2018-09-13 14:08:42</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Remove the empty bucket</AnnotationText>
+                  <DefaultAnnotationText>!IsEmpty([Concat_Bucket])</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="171">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="2586" y="746" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_14876_c726a933362a4c1bb4748cf0d4b16848_\Engine_14932_1f7801aff9d74a658d542252c65572fb_.yxdb</TempFile>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="174">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="2946" y="718" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_14876_c726a933362a4c1bb4748cf0d4b16848_\Engine_14932_2e804821977d4f1481acb5f97e74e874_.yxdb</TempFile>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="172">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="2730" y="730" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_14876_c726a933362a4c1bb4748cf0d4b16848_\Engine_14932_b542dc6e6cb7493f8d7747a92089d0aa_.yxdb</TempFile>
+                  <Layout>
+                    <View1>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="89">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="2779" y="778" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="0">
+                    <Field field="Count" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Sort by Count - Descending</AnnotationText>
+                  <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="88">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="2647" y="778" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Concat_Bucket" action="GroupBy" rename="Concat_Bucket" />
+                    <SummarizeField field="Concat_Bucket" action="Count" rename="Count" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Count the concatenated "Buckets"</AnnotationText>
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="173">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="2838" y="730" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_14876_c726a933362a4c1bb4748cf0d4b16848_\Engine_14932_2b3c1257c320400690cd902a79030f6c_.yxdb</TempFile>
+                  <Layout>
+                    <View1>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="144">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="2490" y="926" width="186.2751" height="19" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Without Concatenation</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="134">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="2635" y="970" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="0">
+                    <Field field="Count" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="135">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="2515" y="970" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Bucket" action="GroupBy" rename="Bucket" />
+                    <SummarizeField field="Bucket" action="Count" rename="Count" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Count the concatenated "Buckets"</AnnotationText>
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="149">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2514" y="842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_1933720622c4440d9cdfe67702ac9e52_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1770" y="122" width="907.2751" height="401" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Answer Text</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1795" y="266.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Pkey Report Answer Benchmark ID" selected="True" />
+                <SelectField field="Str Answer Text" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Remove unwanted fields</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="2119" y="266.0005" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Str Answer Text</Field>
+              <NumFields value="1" />
+              <Delimeters value=" " />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Split into rows with one word per row</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="2251" y="362.0005" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Str Answer Text</FieldFind>
+              <FieldSearch>Search</FieldSearch>
+              <ReplaceFoundField>Bucket</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="Bucket" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Append the bucket to the search word using the find replace tool.</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="2358" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Pkey Report Answer Benchmark ID" />
+                <Field field="Bucket" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Unique pair of 'Pkey' and 'Bucket'</AnnotationText>
+              <DefaultAnnotationText>Unique: Pkey Report Answer Benchmark ID, Bucket</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2263" y="266.0007" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_a30e85d8367949ee80adf2a6a1ffd591_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2359" y="290.0005" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_eef64f86e4114627ba0feaf098df2b9f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1879" y="218" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_7dc35295af5646fb8680fb635fb39e3e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2083" y="230.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_d8955b20902844a4a024e24136d7b0f4_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings>
+            <Position x="1999" y="266.0005" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="List Box (11)">"Str Answer Text"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">True</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Removing Punctuation</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings>
+            <Position x="1891" y="374.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="List Box (11)">"Search","Bucket"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">True</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Removing Punctuation</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1987" y="409.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_4a80fca844344b4fb407dffc1c48098f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="141">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="2466" y="166" width="170.527" height="19" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>With Concatenation</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="58">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="2491" y="266" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Bucket" action="Concat" rename="Concat_Bucket">
+                      <Concat_Start />
+                      <Separator>,</Separator>
+                      <Concat_End />
+                    </SummarizeField>
+                    <SummarizeField field="Pkey Report Answer Benchmark ID" action="GroupBy" rename="Pkey Report Answer Benchmark ID" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Group by 'Pkey' and concatenate the "Buckets"</AnnotationText>
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="63">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="2875" y="266" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>!IsEmpty([Concat_Bucket])</Expression>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>IsNotEmpty</Operator>
+                    <Field>Concat_Bucket</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>False</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2018-09-13 14:08:42</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>
+                      </Operand>
+                      <StartDate>2018-09-13 14:08:42</StartDate>
+                      <EndDate>2018-09-13 14:08:42</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Remove the empty bucket</AnnotationText>
+                  <DefaultAnnotationText>!IsEmpty([Concat_Bucket])</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="168">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="2562" y="246" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_14876_c726a933362a4c1bb4748cf0d4b16848_\Engine_14932_907f1b9c538c491ebd91f8650d618104_.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="170">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="2946" y="210" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_14876_c726a933362a4c1bb4748cf0d4b16848_\Engine_14932_7de544515b1045508e91e278e071d2b2_.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="169">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="2706" y="234" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_14876_c726a933362a4c1bb4748cf0d4b16848_\Engine_14932_a75e0f9f624a434984a3e2683ff02962_.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="60">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="2755" y="266" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="0">
+                    <Field field="Count" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Sort by Count - Descending</AnnotationText>
+                  <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="59">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="2623" y="266" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Concat_Bucket" action="GroupBy" rename="Concat_Bucket" />
+                    <SummarizeField field="Concat_Bucket" action="Count" rename="Count" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Count the concatenated "Buckets"</AnnotationText>
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="143">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="2466" y="402" width="186.2751" height="19" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Without Concatenation</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="131">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="2611" y="446" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="0">
+                    <Field field="Count" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="130">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="2491" y="446" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Bucket" action="GroupBy" rename="Bucket" />
+                    <SummarizeField field="Bucket" action="Count" rename="Count" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Count the concatenated "Buckets"</AnnotationText>
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="148">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2490" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_348132253e734123994bd7e188890d93_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1038" y="178" width="649" height="412" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Model Segment Filter</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="117">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1495" y="290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1603" y="290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RAHCHAU\AppData\Local\Temp\Engine_4984_555c65588bd54f059a0004a16e921139_\Engine_11400_5185700a897948048fa56fe140eee6cb_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="119">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1135" y="338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Model Segment" selected="True" />
+                <SelectField field="Pkey Report Answer Benchmark ID" selected="True" />
+                <SelectField field="Str Note Text" selected="True" />
+                <SelectField field="Str Answer Text" selected="True" />
+                <SelectField field="Str Question Standardized" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="120">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1063" y="338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="123">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1194" y="222" width="223.5128" height="235" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Heavy (Highway + Vocational)</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="121">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="1219" y="266" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[Model Segment] = "Heavy Highway"
+OR
+[Model Segment] = "Heavy Vocational"</Expression>
+                  <Mode>Custom</Mode>
+                  <Simple>
+                    <Operator>=</Operator>
+                    <Field>Model Segment</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2018-09-25 09:10:14</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>
+                      </Operand>
+                      <StartDate>2018-09-25 09:10:14</StartDate>
+                      <EndDate>2018-09-25 09:10:14</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Model Segment] = "Heavy Highway"
+OR
+[Model Segment] = "Heavy Vocational"</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="125">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1194" y="546" width="138.3273" height="19" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Medium Duty</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="124">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="1219" y="590" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[Model Segment] = "Medium Duty"</Expression>
+                  <Mode>Custom</Mode>
+                  <Simple>
+                    <Operator>=</Operator>
+                    <Field>Model Segment</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2018-09-25 09:10:14</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>
+                      </Operand>
+                      <StartDate>2018-09-25 09:10:14</StartDate>
+                      <EndDate>2018-09-25 09:10:14</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Model Segment] = "Medium Duty"</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="354" y="378" width="159.3175" height="220" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dislike Questions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="127">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="379" y="422" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression><![CDATA[[Str Question Standardized] = "What specific issues or costs have you experienced? Please provide as much detail as possible."
+OR
+[Str Question Standardized] = "What is one thing [DIVISION] could do to improve ownership experience? (Please be as specific as possible.)"
+OR
+[Str Question Standardized] = "What are the top three things you like least about your NEW CASCADIA? Please be as specific as possible. (Ask open ended and mark answers below)."
+OR
+[Str Question Standardized] = "What are the top three things you like least about your M2 112? Please be as specific as possible. (Ask open ended and mark answers below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like least about your M2 106? Please be as specific as possible. (Ask open ended and mark answers below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like least about your CASCADIA? Please be as specific as possible. (Ask open ended and mark answers below)."
+OR
+[Str Question Standardized] = "What are the top three things you like least about your 5700? Please be as specific as possible. (Ask open ended and mark answers below)."
+OR
+[Str Question Standardized] = "What are the top three things you like least about your 4900? Please be as specific as possible. (Ask open ended and mark answers below)."
+OR
+[Str Question Standardized] = "What are the top three things you like least about your 4700? Please be as specific as possible. (Ask open ended and mark answers below)."
+OR
+[Str Question Standardized] = "What are the top three things you like least about your 122 SD? Please be as specific as possible. (Ask open ended and mark answers below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like least about your 114 SD? Please be as specific as possible. (Ask open ended and mark answers below.)"
+OR
+[Str Question Standardized] = "What are the top three things you like least about your 108SD? Please be as specific as possible. (Ask open ended and mark answers below)"
+OR
+[Str Question Standardized] = "Have you had any issues with the vehicle, or incurred any unexpected costs since you or your company purchased or leased this vehicle?"
+OR
+[Str Question Standardized] = "(If Yes, ask:) What specific issues or costs have you experienced? Please provide as much detail as possible."
+OR
+[Str Question Standardized] = "(If suggestion for improvement is not related to the product itself, ask: And what is the one thing [DIVISION] could do to improve the vehicle itself?"
+OR
+[Str Question Standardized] = "(If score is 6 or less, ask:) What are the reason(s) for that rating?"    ]]></Expression>
+              <Mode>Custom</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Model Segment</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-09-25 09:10:14</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-09-25 09:10:14</StartDate>
+                  <EndDate>2018-09-25 09:10:14</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Str Question Standardized] = "What specific issues or costs have you experience...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="80" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="103" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="159" Connection="Output" />
+      <Destination ToolID="160" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="160" Connection="Output" />
+      <Destination ToolID="161" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="160" Connection="Output" />
+      <Destination ToolID="175" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="160" Connection="Output" />
+      <Destination ToolID="167" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="150" Connection="Unique" />
+      <Destination ToolID="157" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="155" Connection="Output" />
+      <Destination ToolID="150" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="157" Connection="True" />
+      <Destination ToolID="159" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="158" Connection="True" />
+      <Destination ToolID="159" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="153" Connection="Unique" />
+      <Destination ToolID="158" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="156" Connection="Output" />
+      <Destination ToolID="153" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="175" Connection="Output" />
+      <Destination ToolID="176" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="175" Connection="Output" />
+      <Destination ToolID="177" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="177" Connection="True" />
+      <Destination ToolID="178" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="136" Connection="Output" />
+      <Destination ToolID="138" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="138" Connection="Output" />
+      <Destination ToolID="146" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="146" Connection="Output" />
+      <Destination ToolID="147" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="147" Connection="True" />
+      <Destination ToolID="145" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="147" Connection="True" />
+      <Destination ToolID="139" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="115" Connection="True" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="127" Connection="True" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="113" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="129" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="100" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="102" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Output" />
+      <Destination ToolID="86" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Output26" />
+      <Destination ToolID="86" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="Output" />
+      <Destination ToolID="95" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Unique" />
+      <Destination ToolID="135" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Unique" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Unique" />
+      <Destination ToolID="149" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Unique" />
+      <Destination ToolID="156" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Output26" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Output26" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Output26" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="171" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="92" Connection="True" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="63" Connection="True" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="True" />
+      <Destination ToolID="174" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="173" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="Output" />
+      <Destination ToolID="172" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="Output" />
+      <Destination ToolID="89" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="134" Connection="Output" />
+      <Destination ToolID="136" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="131" Connection="Output" />
+      <Destination ToolID="136" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="135" Connection="Output" />
+      <Destination ToolID="134" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="79" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output26" />
+      <Destination ToolID="57" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Unique" />
+      <Destination ToolID="130" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Unique" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Unique" />
+      <Destination ToolID="148" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Unique" />
+      <Destination ToolID="155" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output26" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output26" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output26" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="168" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="True" />
+      <Destination ToolID="170" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="169" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="130" Connection="Output" />
+      <Destination ToolID="131" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="121" Connection="True" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="124" Connection="True" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Word Split - Bucketing - Overall Data - Modified with Concat Buckets</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
